@@ -4,6 +4,6 @@ title: About
 
 ---
 
-# About the Author or Blog
+# About me
 
 Here is a little information about the author or the blog.

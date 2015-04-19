@@ -12,5 +12,3 @@ But also, I’ll talk about my living experiences as a programmer. From writing 
 What I’ve found useful or not, what I’m pleased to remark and recommend and, in my humble opinion, what you should practice or not.
 
 From here on we’ve got the perfect place to talk.
-
-<img src="assets/images/marcos_215.jpg">

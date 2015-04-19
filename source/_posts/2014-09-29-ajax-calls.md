@@ -1,7 +1,7 @@
 ---
 title: Ajax, dynamic data callback
 categories:
-    - Php
+    - PHP
     - Javascript
 tags:
     - ajax

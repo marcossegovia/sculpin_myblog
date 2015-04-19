@@ -1,6 +1,7 @@
 # The contents of this file are parsed and made available as
 # via `site.*`. So for example, {{ site.title }} can be used
 # in a template to get the contents of the `title` key.
+
 title: Software Development
 subtitle: A blog from a young programmer apprentice
 url: http://127.0.0.1:8080/myblog/output_prod
