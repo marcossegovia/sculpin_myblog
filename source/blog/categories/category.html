@@ -1,0 +1,8 @@
+---
+layout: default
+title: Tag Archive
+generator: posts_category_index
+
+---
+{% set header %}Category: {{ page.category }}{% endset %}
+{% include "blog_archives" with {posts: page.category_posts} %}

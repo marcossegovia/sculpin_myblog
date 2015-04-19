@@ -1,0 +1,9 @@
+{% macro small_tumbnail(image, caption) %}
+
+    <a href="{{ image }}">
+        <img src="{% thumbnail(image, 100, 100) %}">
+        <br>
+        <em>{{ caption }}</em>
+    </a>
+
+{% endmacro %}

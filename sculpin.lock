@@ -1,0 +1,148 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "07a4be261173a7cad40f99ccce47c8b8",
+    "packages": [
+        {
+            "name": "beryllium/icelus",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/beryllium/icelus.git",
+                "reference": "eb1102dd50a6867870c735c81002984dac2085ce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/beryllium/icelus/zipball/eb1102dd50a6867870c735c81002984dac2085ce",
+                "reference": "eb1102dd50a6867870c735c81002984dac2085ce",
+                "shasum": ""
+            },
+            "require": {
+                "imanee/imanee": "*"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "~1.4.0",
+                "phpunit/phpunit": "~4.5",
+                "symfony/config": "~2.1",
+                "symfony/dependency-injection": "~2.1",
+                "symfony/filesystem": "~2.6",
+                "symfony/http-kernel": "~2.6",
+                "twig/twig": "~1.18"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Beryllium\\Icelus\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Boyd",
+                    "email": "kevin.boyd@gmail.com",
+                    "homepage": "http://whateverthing.com"
+                }
+            ],
+            "description": "Thumbnail generator for Sculpin-based websites",
+            "homepage": "http://whateverthing.com",
+            "keywords": [
+                "Thumbnails",
+                "images",
+                "sculpin",
+                "sculpin-plugin"
+            ],
+            "time": "2015-03-05 08:22:20"
+        },
+        {
+            "name": "imanee/imanee",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/imanee/imanee.git",
+                "reference": "39eacf5aaec773c7dbb90a4c11f5c478e97bf052"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/imanee/imanee/zipball/39eacf5aaec773c7dbb90a4c11f5c478e97bf052",
+                "reference": "39eacf5aaec773c7dbb90a4c11f5c478e97bf052",
+                "shasum": ""
+            },
+            "require": {
+                "ext-imagick": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Imanee\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Erika Heidi",
+                    "email": "erika@erikaheidi.com"
+                }
+            ],
+            "description": "A PHP Image Manipulation Library based on Imagemagick",
+            "homepage": "http://imanee.github.com/imanee",
+            "keywords": [
+                "ImageMagick",
+                "image",
+                "imagick",
+                "php",
+                "processing"
+            ],
+            "time": "2015-02-23 14:37:12"
+        },
+        {
+            "name": "sculpin/bootstrap-3-blog-theme",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sculpin/bootstrap-3-blog-theme.git",
+                "reference": "63d2c12172bfabe0d3231c87d1339698551ab0f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sculpin/bootstrap-3-blog-theme/zipball/63d2c12172bfabe0d3231c87d1339698551ab0f2",
+                "reference": "63d2c12172bfabe0d3231c87d1339698551ab0f2",
+                "shasum": ""
+            },
+            "type": "sculpin-theme",
+            "description": "A Bootstrap 3 Blog Theme for Sculpin",
+            "support": {
+                "source": "https://github.com/sculpin/bootstrap-3-blog-theme/tree/master",
+                "issues": "https://github.com/sculpin/bootstrap-3-blog-theme/issues"
+            },
+            "time": "2014-01-16 06:29:42"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "sculpin/bootstrap-3-blog-theme": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
