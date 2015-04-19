@@ -5,5 +5,4 @@
 /app/config/sculpin_site_*.yml
 /app/logs/*
 /output_*/
-/source/themes/
 s3.conf

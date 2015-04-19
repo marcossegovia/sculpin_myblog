@@ -22,7 +22,6 @@
         }
     ],
     "require": {
-        "sculpin/bootstrap-3-blog-theme": "dev-master",
         "beryllium/icelus": "*"
     }
 }
