@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Categories
+
 use:
     - posts_categories
 ---
-{% include "blog_taxonomy_index1" with {header: page.title, taxonomy: data.posts_categories, url_segment: "blog/categories"} %}
+
+{% include "blog_categories" with {header: page.title, categories: data.posts_categories, url_segment: "blog/categories"} %}

@@ -1,0 +1,10 @@
+<div class="blog-categories">
+    <h1>{{ header }}</h1>
+    <article>
+        <ul class="list-group">
+        {% for name, items in categories %}
+            <a href="{{ site.url }}/{{ url_segment }}/{{ name|url_encode(true) }}"><li class="list-group-item"><span class="badge">{{items|length}}</span> {{name}}</li></a>
+        {% endfor %}
+        </ul>
+    </article>
+</div>
